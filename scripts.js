@@ -35,7 +35,7 @@ const tools = [
         imageUrl: "https://www.djangoproject.com/m/img/logos/django-logo-positive.png",
         url: "https://www.djangoproject.com"
     }
-    // Add more tools as needed
+    
 ];
 
 const toolsList = document.getElementById('tools-list');
@@ -70,7 +70,6 @@ tools.forEach(tool => {
     toolsList.appendChild(toolCard);
 });
 
-// Appending the advertising section
 const advertisingSection = document.createElement('section');
 advertisingSection.id='advertising';
 document.body.appendChild(advertisingSection);
@@ -80,7 +79,7 @@ const adImage = document.createElement('img');
 adImage.src = "Discover.jpg"; 
 adImage.alt = "Advertisement";
 adImage.addEventListener('click', () => {
-    window.open('http://localhost:3005', '_blank'); // Adjust URL
+    window.open('http://localhost:3005', '_blank'); // Adjust URL for the react app
 });
 adCard.appendChild(adImage);
 advertisingSection.appendChild(adCard);
