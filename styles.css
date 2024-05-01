@@ -93,6 +93,6 @@ header {
 }
 
 .ad-card img {
-    max-width: 200px; /* Set the maximum width */
-    height: auto; /* Maintain aspect ratio */
+    max-width: 200px; 
+    height: auto; 
 }
